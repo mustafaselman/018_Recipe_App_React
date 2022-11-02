@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import axios from 'axios';
 import './App.css';
+import AppRouter from './router/AppRouter';
 
 function App() {
+
+ axios(`https://api.edamam.com/search?q=chocolate&app_id=0e2fcaf4&app_key=2f7fa048d0e6794e985e02b30681b2b5&mealType=dinner`)
+  .then(resp => {
+  
+      console.log(resp.data);
+  });
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppRouter/>
     </div>
   );
 }
