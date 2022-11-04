@@ -3,7 +3,8 @@ import "./styleNavbar.css"
 import mustafaricipe from "../../assets/mustafaricipe.png";
 
 
-export default function Navbar(){
+export default function Navbar()
+{
     return (
         <div>
             <nav>
@@ -16,13 +17,13 @@ export default function Navbar(){
 
                 </ul>
                 <div className="navbar">
-                
-                
-                
-                
-                
+
+
+
+
+
                 </div>
-                
+
             </nav>
         </div>
     )

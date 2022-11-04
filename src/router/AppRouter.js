@@ -13,13 +13,13 @@ export default function AppRouter()
             <Routes>
 
                 <Route path='login' element={<Login />} />
-                <Route index element={<Home />}/>
-                <Route path='about' element={<PrivateRouter/>}>
-                    <Route path='' element={<About/>}/>
+                <Route index element={<Home />} />
+                <Route path='about' element={<PrivateRouter />}>
+                    <Route path='' element={<About />} />
                 </Route>
-                <Route path="viewdetails" element={<Details/>}/>
-                
-                
+                <Route path="viewdetails" element={<Details />} />
+
+
 
 
             </Routes>

@@ -4,12 +4,14 @@
     border: 5px;
     margin: 0px 5px;
 }
+
 .forminputbutton:hover {
     opacity: 0.9;
     border-color: aqua;
     font-weight: bolder;
-    
+
 }
+
 .forminputbutton {
     margin: 0px 5px;
     padding: 10px;

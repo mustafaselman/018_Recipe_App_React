@@ -1,30 +1,31 @@
 ul {
     justify-content: center;
     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:wheat;
-  border-bottom: 2px;
-  border-bottom: double;
-  width: 100%;
-  display: flex;
-  flex-flow:row;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+    border-bottom: 2px;
+    border-bottom: double;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
 
 }
+
 li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: rgba(235, 165, 15, 0.89);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: x-large;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     font-weight: bolder;
-  }
+}

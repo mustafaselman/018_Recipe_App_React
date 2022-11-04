@@ -13,7 +13,7 @@ export default function Details()
 
     const slicedArray = nutrients.slice(0, 10);
 
-  
+
     return (
         <div className="maindiv">
             <Navbar />
@@ -24,18 +24,19 @@ export default function Details()
             <div className="main">
                 <div className="nutrients">
                     <h3>{
-                    Object.values(slicedArray).map((e)=>
-                            <p>{Object.values(e)[0]}:{Math.round(Object.values(e)[1])}{Object.values(e)[2]}</p>
+                        Object.values(slicedArray).map((e) =>
+                            <p>{Object.values(e)[ 0 ]}:{Math.round(Object.values(e)[ 1 ])}{Object.values(e)[ 2 ]}</p>
                         )
                     }
-                        </h3>
+                    </h3>
                 </div>
                 <div className="detail_image">
                     <img src={location.state.image} alt="png" />
                 </div>
                 <div className="ingredients">
-                    <h3>{ingredients.map((e)=>{
-                        return(
+                    <h3>{ingredients.map((e) =>
+                    {
+                        return (
                             <p>{e}</p>
                         )
                     })}</h3>

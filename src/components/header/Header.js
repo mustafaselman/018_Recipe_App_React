@@ -1,8 +1,9 @@
-export default function Header(){
+export default function Header()
+{
 
-    return(
+    return (
         <>
-        <h1>SELECT YOUR FOOD</h1>
+            <h1>SELECT YOUR FOOD</h1>
         </>
     )
 }
