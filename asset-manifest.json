@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mustafaselman/018_Recipe_App_React/static/css/main.824abe06.css",
-    "main.js": "/mustafaselman/018_Recipe_App_React/static/js/main.df1dcfde.js",
-    "static/media/cooker2.png": "/mustafaselman/018_Recipe_App_React/static/media/cooker2.d4ace14d660b80f97c84.png",
-    "static/media/programming.png": "/mustafaselman/018_Recipe_App_React/static/media/programming.13a129a5f6365ab2f201.png",
-    "static/media/select_one.png": "/mustafaselman/018_Recipe_App_React/static/media/select_one.85c995dbc4a6b6c5175a.png",
-    "static/media/mustafaricipe.png": "/mustafaselman/018_Recipe_App_React/static/media/mustafaricipe.d8bbb15ef7db9e2e5159.png",
-    "index.html": "/mustafaselman/018_Recipe_App_React/index.html",
-    "main.824abe06.css.map": "/mustafaselman/018_Recipe_App_React/static/css/main.824abe06.css.map",
-    "main.df1dcfde.js.map": "/mustafaselman/018_Recipe_App_React/static/js/main.df1dcfde.js.map"
+    "main.css": "/018_Recipe_App_React/static/css/main.824abe06.css",
+    "main.js": "/018_Recipe_App_React/static/js/main.0ee0ae3a.js",
+    "static/media/cooker2.png": "/018_Recipe_App_React/static/media/cooker2.d4ace14d660b80f97c84.png",
+    "static/media/programming.png": "/018_Recipe_App_React/static/media/programming.13a129a5f6365ab2f201.png",
+    "static/media/select_one.png": "/018_Recipe_App_React/static/media/select_one.85c995dbc4a6b6c5175a.png",
+    "static/media/mustafaricipe.png": "/018_Recipe_App_React/static/media/mustafaricipe.d8bbb15ef7db9e2e5159.png",
+    "index.html": "/018_Recipe_App_React/index.html",
+    "main.824abe06.css.map": "/018_Recipe_App_React/static/css/main.824abe06.css.map",
+    "main.0ee0ae3a.js.map": "/018_Recipe_App_React/static/js/main.0ee0ae3a.js.map"
   },
   "entrypoints": [
     "static/css/main.824abe06.css",
-    "static/js/main.df1dcfde.js"
+    "static/js/main.0ee0ae3a.js"
   ]
 }
