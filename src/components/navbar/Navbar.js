@@ -10,10 +10,10 @@ export default function Navbar()
             <nav>
                 <ul>
                     <li><img src={mustafaricipe} alt="recipe" /></li>
-                    <li><Link to='/' >Home</Link></li>
+                    <li><Link to='/home' >Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><a href="https://github.com/mustafaselman">Github</a></li>
-                    <li><Link to="/login">Logout</Link></li>
+                    <li><Link to="/">Logout</Link></li>
 
                 </ul>
                 <div className="navbar">

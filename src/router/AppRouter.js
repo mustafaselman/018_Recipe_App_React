@@ -12,8 +12,8 @@ export default function AppRouter()
         <BrowserRouter>
             <Routes>
 
-                <Route path='login' element={<Login />} />
-                <Route index element={<PrivateRouter />}>
+                <Route index element={<Login />} />
+                <Route path="home" element={<PrivateRouter />}>
                     <Route path='' element={<Home />} />
                 </Route>
                 <Route path='about' element={<PrivateRouter />}>
