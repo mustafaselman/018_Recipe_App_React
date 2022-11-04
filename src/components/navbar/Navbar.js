@@ -1,14 +1,28 @@
 import { Link } from "react-router-dom";
+import "./styleNavbar.css"
+import mustafaricipe from "../../assets/mustafaricipe.png";
+
 
 export default function Navbar(){
     return (
         <div>
             <nav>
-                SELMANRECIPE
-                <Link to='/' >Home</Link>
-                <Link to="/about">About</Link>
-                <a href="https://github.com/">Github</a>
-                <Link to="/login">Logout</Link>
+                <ul>
+                    <li><img src={mustafaricipe} alt="recipe" /></li>
+                    <li><Link to='/' >Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><a href="https://github.com/mustafaselman">Github</a></li>
+                    <li><Link to="/login">Logout</Link></li>
+
+                </ul>
+                <div className="navbar">
+                
+                
+                
+                
+                
+                </div>
+                
             </nav>
         </div>
     )

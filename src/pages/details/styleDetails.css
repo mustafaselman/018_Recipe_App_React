@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box; 
+  }
+ .maindiv {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  .header {
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+  .header img {
+    width: 14%;
+  }
+  .header h1 {
+    border-bottom-style: double;
+  }
+  .main {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+    border: double;
+    align-items: center;
+
+  }
+  .nutrients {
+   
+    order: 1;
+  }
+  .detail_image {
+    
+    order: 2;
+    border-left-style: solid;
+    border-right-style: solid;
+    margin: 3px;
+  }
+  .detail_image img {
+    width:50%;
+  }
+  .ingredients {
+    
+    order: 3;
+  }

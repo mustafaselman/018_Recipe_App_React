@@ -2,7 +2,7 @@ export default function Header(){
 
     return(
         <>
-        Food App
+        <h1>SELECT YOUR FOOD</h1>
         </>
     )
 }

@@ -1,0 +1,24 @@
+.homeMainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: bisque;
+    justify-content: space-evenly;
+    align-content: stretch;
+    
+}
+.recipecardcontainer {
+    flex-direction: column;
+    width: 8rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+.h5s {
+    max-width: fit-content;
+    height: 2rem;
+    display: inline-block;
+}
+.recipecardcontainer:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
